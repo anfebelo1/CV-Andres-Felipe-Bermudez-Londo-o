@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Portafolio de Andrés Felipe Bermúdez Londoño, QA Automatizador Senior especializado en automatización, pruebas de API e IA aplicada al testing."
+    >
+    <meta name="theme-color" content="#0b1424">
+    <title>Andrés Bermúdez | QA Automation &amp; IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Andrés Bermúdez, inicio">
+          <span class="brand-mark">AB</span>
+          <span>andres<span class="brand-dot">.</span>qa</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Abrir menú"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#proyectos">Proyectos QA</a>
+          <a href="#habilidades">Habilidades</a>
+          <a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section-shell" id="inicio">
+        <div class="hero-grid container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot"></span> QA AUTOMATION · MEDELLÍN, CO</p>
+            <h1>Calidad que escala.<br><span class="text-gradient">Innovación que prueba.</span></h1>
+            <p class="hero-intro">
+              Soy <strong>Andrés Felipe Bermúdez Londoño</strong>, QA Automatizador Senior.
+              Diseño pruebas confiables para front, APIs e integración, y exploro cómo la
+              inteligencia artificial puede hacer más inteligente cada etapa del testing.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#proyectos">Explorar mi trabajo <span aria-hidden="true">↓</span></a>
+              <a class="button button-secondary" href="mailto:anfebelo1@hotmail.com">Contactarme <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-proof" aria-label="Experiencia y especialidades">
+              <div><strong>6+</strong><span>años en QA</span></div>
+              <div><strong>3</strong><span>capas de prueba</span></div>
+              <div><strong>IA</strong><span>aplicada al testing</span></div>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Visualización de un flujo de pruebas automatizadas">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="visual-card">
+              <div class="terminal-top">
+                <span class="terminal-lights"><i></i><i></i><i></i></span>
+                <span>qa-pipeline.spec</span>
+                <span class="terminal-menu">···</span>
+              </div>
+              <div class="terminal-code" aria-hidden="true">
+                <p><span class="code-muted">01</span> <span class="code-purple">describe</span>(<span class="code-green">'checkout'</span>, () =&gt; {</p>
+                <p><span class="code-muted">02</span> &nbsp;<span class="code-purple">it</span>(<span class="code-green">'procesa una compra'</span>, <span class="code-blue">async</span> () =&gt; {</p>
+                <p><span class="code-muted">03</span> &nbsp;&nbsp;<span class="code-blue">await</span> page.<span class="code-yellow">goto</span>(<span class="code-green">'/checkout'</span>);</p>
+                <p><span class="code-muted">04</span> &nbsp;&nbsp;<span class="code-blue">await</span> expect(order).<span class="code-yellow">toBeVisible</span>();</p>
+                <p><span class="code-muted">05</span> &nbsp;});</p>
+                <p><span class="code-muted">06</span>});</p>
+              </div>
+              <div class="pipeline-status">
+                <span class="check-icon" aria-hidden="true">✓</span>
+                <span><strong>Pipeline estable</strong><small>Front · API · Integración</small></span>
+                <span class="status-label">PASSING</span>
+              </div>
+            </div>
+            <div class="float-chip chip-ai"><span aria-hidden="true">✳</span> IA + QA</div>
+            <div class="float-chip chip-bdd"><span aria-hidden="true">⌘</span> BDD / TDD mindset</div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre-mi"><span></span> Desliza para descubrir</a>
+      </section>
+
+      <section class="section section-about" id="sobre-mi">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">01 / PERFIL</p>
+            <h2>Calidad con criterio.<br><span class="text-gradient">Automatización con propósito.</span></h2>
+          </div>
+          <div class="about-content reveal">
+            <p class="body-large">
+              Más de seis años convirtiendo requerimientos en estrategias de prueba claras,
+              mantenibles y útiles para el negocio.
+            </p>
+            <p>
+              He trabajado en automatización de front, servicios REST/SOAP e integración,
+              diseñando y manteniendo frameworks con Java, Serenity BDD, Cucumber, Selenium y
+              Karate. Complemento la cobertura funcional con pruebas de rendimiento en JMeter
+              y k6, y automatización con Cypress, Katalon y Playwright.
+            </p>
+            <p>
+              También incorporo IA a mi práctica de testing: trabajo con agentes locales y en
+              la nube, GitHub Copilot y Kiro; diseño prompts y specs para guiar el análisis y
+              la generación de soluciones desde VS Code y la terminal.
+            </p>
+            <div class="value-tags">
+              <span>Trabajo en equipo</span><span>Mejora continua</span><span>Adaptabilidad</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-experience" id="experiencia">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow">02 / TRAYECTORIA</p>
+              <h2>Experiencia que <span class="text-gradient">construye confianza.</span></h2>
+            </div>
+            <p class="section-aside">De la estrategia de calidad a la automatización que entrega valor.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">FEB 2026 — NOV 2026</div>
+              <div class="timeline-card">
+                <div class="job-title-row">
+                  <div><h3>Analista funcional y QA</h3><p class="company">Red Hat</p></div>
+                  <span class="job-index">01</span>
+                </div>
+                <ul>
+                  <li>Análisis funcional de requerimientos y diseño de casos de prueba.</li>
+                  <li>Pruebas de servicios API con Karate y Postman.</li>
+                  <li>Pruebas de estrés y rendimiento con k6.</li>
+                </ul>
+                <div class="tag-list"><span>Karate</span><span>Postman</span><span>k6</span><span>QA funcional</span></div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">JUL 2021 — ACTUALIDAD</div>
+              <div class="timeline-card">
+                <div class="job-title-row">
+                  <div><h3>Automatizador Senior</h3><p class="company">SoftwareOne Intergrupo · Medellín</p></div>
+                  <span class="job-index">02</span>
+                </div>
+                <ul>
+                  <li>Definición de estrategias de pruebas automáticas y manuales para front y APIs.</li>
+                  <li>Automatización de front con Java, Serenity BDD, Cucumber y patrón Screenplay.</li>
+                  <li>Pruebas REST/SOAP e integración con Karate; retest, regresión y rendimiento.</li>
+                  <li>Gestión de repositorios Git/GitHub y reporte de vulnerabilidades y riesgos.</li>
+                </ul>
+                <div class="tag-list"><span>Java</span><span>Serenity BDD</span><span>Screenplay</span><span>Karate</span><span>JMeter</span></div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">OCT 2020 — ABR 2021</div>
+              <div class="timeline-card">
+                <div class="job-title-row">
+                  <div><h3>Automatizador Junior</h3><p class="company">Dev Brothers</p></div>
+                  <span class="job-index">03</span>
+                </div>
+                <ul>
+                  <li>Automatización de un CRUD y pruebas en front, REST/SOAP e integración.</li>
+                  <li>Diseño y ejecución de casos, retest y regresión con prácticas BDD.</li>
+                  <li>Colaboración en estrategias de prueba y gestión de proyectos en repositorios.</li>
+                </ul>
+                <div class="tag-list"><span>Automatización</span><span>BDD</span><span>API</span><span>Git</span></div>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-marker"></span>
+              <div class="timeline-date">MAY 2018 — ABR 2020</div>
+              <div class="timeline-card">
+                <div class="job-title-row">
+                  <div><h3>Instalación de redes y soporte</h3><p class="company">Sur Americas SA</p></div>
+                  <span class="job-index">04</span>
+                </div>
+                <ul>
+                  <li>Soporte de sistemas para usuarios internos.</li>
+                  <li>Instalación de cámaras de seguridad y redes de datos.</li>
+                </ul>
+                <div class="tag-list"><span>Soporte TI</span><span>Redes</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-projects" id="proyectos">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow">03 / LABORATORIO QA + IA</p>
+              <h2>Así pienso la <span class="text-gradient">calidad.</span></h2>
+            </div>
+            <p class="section-aside">Ejemplos demostrativos de mi enfoque. No representan proyectos de clientes.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-topline"><span class="project-type">01 — DEFECTO / API</span><span class="project-icon" aria-hidden="true">⌁</span></div>
+              <h3>El total que no cuadraba</h3>
+              <p>Ejemplo de bug: el servicio de checkout calcula el total sin aplicar el descuento al subtotal, aunque la respuesta indica que el cupón fue aceptado.</p>
+              <div class="bug-box">
+                <div><span class="bug-label">ESPERADO</span><code>subtotal − descuento + envío</code></div>
+                <div><span class="bug-label bug-label-alert">OBSERVADO</span><code>subtotal + envío</code></div>
+              </div>
+              <div class="tag-list"><span>Severidad: alta</span><span>Karate</span><span>REST</span></div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-topline"><span class="project-type">02 — CASO DE PRUEBA</span><span class="project-icon" aria-hidden="true">◎</span></div>
+              <h3>Checkout resiliente</h3>
+              <p>Ejemplo de caso diseñado para cubrir el flujo feliz y los bordes que pueden afectar la compra.</p>
+              <ol class="test-steps">
+                <li><span>01</span> Agregar un producto al carrito.</li>
+                <li><span>02</span> Aplicar un cupón válido y confirmar el total.</li>
+                <li><span>03</span> Completar el pago con datos válidos.</li>
+                <li><span>04</span> Verificar confirmación y orden persistida.</li>
+              </ol>
+              <div class="tag-list"><span>BDD</span><span>Positivo + bordes</span><span>API / UI</span></div>
+            </article>
+            <article class="project-card project-card-ai reveal">
+              <div class="project-topline"><span class="project-type">03 — AUTOMATIZACIÓN + IA</span><span class="project-icon" aria-hidden="true">✳</span></div>
+              <h3>De requisito a pruebas trazables</h3>
+              <p>Flujo demostrativo: un agente asistido por IA ayuda a analizar una spec, proponer escenarios y preparar una base de automatización que luego revisa el QA.</p>
+              <div class="ai-flow" aria-label="Flujo de trabajo asistido por IA">
+                <span>Spec</span><b aria-hidden="true">→</b><span>Escenarios</span><b aria-hidden="true">→</b><span>Revisión QA</span>
+              </div>
+              <div class="tag-list"><span>Prompts</span><span>Specs</span><span>Copilot / Kiro</span><span>Playwright</span></div>
+            </article>
+          </div>
+          <p class="project-note reveal"><span aria-hidden="true">✳</span> Ejemplos demostrativos, no proyectos atribuidos a clientes. La IA acelera el trabajo; el criterio y la validación siguen siendo humanos.</p>
+        </div>
+      </section>
+
+      <section class="section section-skills" id="habilidades">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">04 / CAJA DE HERRAMIENTAS</p>
+            <h2>Tecnología al servicio <span class="text-gradient">de la calidad.</span></h2>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card reveal"><span class="skill-number">01</span><h3>Automatización</h3><p>Selenium · Serenity BDD · Cucumber · Cypress · Katalon · Playwright · Screenplay · POM</p></article>
+            <article class="skill-card reveal"><span class="skill-number">02</span><h3>API &amp; rendimiento</h3><p>Karate · Postman · REST · SOAP · JMeter · k6 · Pruebas de integración</p></article>
+            <article class="skill-card skill-card-highlight reveal"><span class="skill-number">03</span><h3>IA aplicada al testing</h3><p>Agentes locales y en la nube · GitHub Copilot · Kiro · Prompt Engineering · Specs · Playwright</p></article>
+            <article class="skill-card reveal"><span class="skill-number">04</span><h3>Desarrollo &amp; datos</h3><p>Java · Gradle · SQL · Oracle · MySQL</p></article>
+            <article class="skill-card reveal"><span class="skill-number">05</span><h3>Colaboración</h3><p>Azure DevOps · Jira · Miro · Git · GitHub · Metodologías ágiles</p></article>
+            <article class="skill-card reveal"><span class="skill-number">06</span><h3>Entornos de desarrollo</h3><p>IntelliJ IDEA · Visual Studio · VS Code · NetBeans · JCreator</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-education" id="formacion">
+        <div class="container education-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">05 / FORMACIÓN</p>
+            <h2>Aprender para <span class="text-gradient">evolucionar.</span></h2>
+          </div>
+          <div class="education-list reveal">
+            <article class="education-item">
+              <span class="education-icon" aria-hidden="true">⌘</span>
+              <div><h3>Instituto Tecnológico Metropolitano — ITM</h3><p>Tecnología en Sistemas de Información · culminado</p><p>Ingeniería de Sistemas · en curso</p></div>
+              <span class="education-location">Medellín</span>
+            </article>
+            <article class="education-item">
+              <span class="education-icon" aria-hidden="true">↗</span>
+              <div><h3>QA Automation con Serenity</h3><p>Curso “De novato a experto” · Udemy · noviembre de 2022</p></div>
+              <span class="education-location">Formación</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div class="container contact-inner reveal">
+          <p class="eyebrow">¿CONSTRUIMOS CALIDAD?</p>
+          <h2>Hablemos de tu próximo <span class="text-gradient">reto QA.</span></h2>
+          <p>Abierto a conversar sobre automatización, calidad de software e IA aplicada al testing.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:anfebelo1@hotmail.com">anfebelo1@hotmail.com <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="tel:+573218702317">321 870 2317 <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/andres-felipe-bermudez-londoño-a72ba6222/" target="_blank" rel="noopener noreferrer">Conectar en LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#inicio"><span class="brand-mark">AB</span><span>andres<span class="brand-dot">.</span>qa</span></a>
+        <p>Hecho con atención al detalle <span aria-hidden="true">·</span> Medellín, Colombia</p>
+        <a class="back-top" href="#inicio">Volver arriba ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
